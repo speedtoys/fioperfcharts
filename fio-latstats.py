@@ -52,7 +52,7 @@ plt.fill_between(average_values.index, average_values - std_dev_values, average_
 # Set the labels and title
 plt.xlabel('Time In Seconds Since Start')
 plt.ylabel('Latency (in µS)')
-plt.title('Latency Over Time (in µS)')
+plt.title('Latency Statistics Over Time (in µS)')
 
 # Set the range for the vertical axis
 plt.ylim([vmin_stats, vmax_stats])

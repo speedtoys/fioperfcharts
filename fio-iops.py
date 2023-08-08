@@ -36,6 +36,6 @@ plt.ylim([vmin_iops, vmax_iops])
 # Do not display a legend
 plt.gca().legend_ = None
 
-# Show the plot
-plt.show()
+# Save the plot as a PNG file
+plt.savefig('iops.png')
 
